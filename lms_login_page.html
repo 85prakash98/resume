@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login Page</title>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(64, 230, 31);
+    height: 100vh;
+}
+.logo{
+    position: absolute;
+    top: 35px;
+    left: 45%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.heading{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: -60px;
+    text-align: center;
+    
+    text-shadow: 5px 5px 13px rgb(16, 7, 95);
+        color: black;
+}
+.loginBox{
+    border:1px solid black;
+    width: 350px;
+    margin:0 auto;
+    padding: 30px 0;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 4px 14px 1px grey;
+}
+.loginTital
+{
+    font-size: 13px;
+    background-color: rgb(117, 196,0);
+    padding: 7px 0px;
+
+    width: 110px;
+    color: white;
+    text-align: center;
+
+}
+.loginForm
+{
+    margin-top: 10px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm input
+{
+    margin: 5px 0;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 3px;
+
+    padding: 10px;
+}
+.loginSubmit
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 15px;
+}
+.loginSubmit button
+{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(117, 196,0) ;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.footer
+{
+    position: absolute;
+    left: 20;
+    bottom: 20px;
+    font-size: 15px;
+    padding-left: 20px;
+    color: black;
+    background-color: violet;
+
+}
+</style>
+</head>
+    <body>
+        <div class="logo">
+        <img src="logo.png" height="100px" width="200px" alt="logo">
+        </div>
+        <div class="container">
+        <div class="heading">
+            <h1>Learning Management System</h1>
+        </div>
+        <div class="loginBox">
+        <div class="loginTital">
+            <p>Let's Login</p>
+        </div>
+        <div class="loginForm">
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        </div>
+        <div class="loginSubmit">
+            <a href="lms_home_page.html"> <button>Log in</button></a>
+        </div>
+    </div>
+    </div>
+        <div class="footer">
+            <p><b>Copyright &copy; 2022 | Developed by PRAKASH KUMAR</b> </p>
+        </div>
+    </body>
+</html>
